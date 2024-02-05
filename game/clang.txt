@@ -1,1 +1,2 @@
 clang -o myprogram game/select.c -I$(brew --prefix)/include -L$(brew --prefix)/lib -lraylib -framework CoreVideo -framework IOKit -framework Cocoa -framework GLUT -framework OpenGL
+clang -o myprogram game/draw_instanced.c -I$(brew --prefix)/include -L$(brew --prefix)/lib -lraylib -framework CoreVideo -framework IOKit -framework Cocoa -framework GLUT -framework OpenGL
